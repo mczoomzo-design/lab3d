@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>แล็บสามมิติ ห้องคอมพิวเตอร์</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Mitr:wght@400;500&family=Sarabun:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand"><i aria-hidden="true"></i>แล็บสามมิติ <small>สื่อการสอนโต้ตอบ · โรงเรียนเลยอนุกูลวิทยา · ภาคเรียนที่ 2/2569</small></div>
+    <nav class="subs" id="subs" aria-label="รายวิชา"></nav>
+  </header>
+  <div class="main">
+    <nav class="plans" id="plans" aria-label="แผนการเรียนรู้"></nav>
+    <div class="stagewrap"><div class="stage" id="stage"></div><div class="hint">ลากเพื่อหมุน · ล้อเมาส์/สองนิ้วเพื่อซูม · คลิกวัตถุที่มีป้าย</div></div>
+    <aside class="side">
+      <div class="box"><div class="meta" id="meta"></div><h1 id="title">กำลังโหลด…</h1><p class="idea" id="idea"></p></div>
+      <div class="readouts" id="readouts"></div>
+      <div class="box" id="controls"></div>
+      <div class="box" id="steps"></div>
+      <div class="box" id="quiz"></div>
+    </aside>
+  </div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
